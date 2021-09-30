@@ -1,0 +1,14 @@
+﻿<Window x:Class="Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Opacidad"
+        mc:Ignorable="d"
+        Title="Opacidad" Height="450" Width="800" Icon="/assets/cloud.ico">
+    <Grid>
+        <Image x:Name="Episodio4" Source="/assets/episodioIV.jpg" Margin="-255,0,255,0"/>
+        <Image x:Name="Episodio5" Source="/assets/episodioV.jpg"/>
+        <Image x:Name="Episodio6" Source="/assets/episodioVI.jpg" Margin="264,0,-264,0"/>
+    </Grid>
+</Window>
