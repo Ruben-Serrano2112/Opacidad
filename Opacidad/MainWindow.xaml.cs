@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Windows;
+﻿using System.Windows;
 
 
 namespace Opacidad
@@ -13,11 +10,30 @@ namespace Opacidad
             InitializeComponent();
         }
 
-        private void Puntero_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        private void Puntero_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
         {
-            Episodio4.Opacity = 1;
-            Episodio5.Opacity = 1;
-            Episodio6.Opacity = 1;
+           
+           if(sender == Episodio4)
+            {
+                Episodio4.Opacity = 1;
+            }
+           else if(sender == Episodio5)
+            {
+                Episodio5.Opacity = 1;
+            }
+           else
+            {
+                Episodio6.Opacity = 1;
+            }
+            
+            
         }
+        private void Puntero_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+            Episodio4.Opacity = 0.5;
+            Episodio5.Opacity = 0.5;
+            Episodio6.Opacity = 0.5;
+        }
+
     }
 }

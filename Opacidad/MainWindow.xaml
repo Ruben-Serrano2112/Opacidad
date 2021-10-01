@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="Opacidad" Height="450" Width="800" Icon="/assets/cloud.ico">
     <Grid>
-        <Image x:Name="Episodio4" Source="/assets/episodioIV.jpg" Margin="-255,0,255,0" Opacity="0.5" MouseDown="Puntero_MouseDown"/>
-        <Image x:Name="Episodio5" Source="/assets/episodioV.jpg" Opacity="0.5" MouseDown="Puntero_MouseDown"/>
-        <Image x:Name="Episodio6" Source="/assets/episodioVI.jpg" Margin="264,0,-264,0" Opacity="0.5" MouseDown="Puntero_MouseDown"/>
+        <Image x:Name="Episodio4" Source="/assets/episodioIV.jpg" Margin="-255,0,255,0" Opacity="0.5" MouseEnter="Puntero_MouseEnter" MouseLeave="Puntero_MouseLeave"/>
+        <Image x:Name="Episodio5" Source="/assets/episodioV.jpg" Opacity="0.5" MouseEnter="Puntero_MouseEnter" MouseLeave="Puntero_MouseLeave"/>
+        <Image x:Name="Episodio6" Source="/assets/episodioVI.jpg" Margin="264,0,-264,0" Opacity="0.5" MouseEnter="Puntero_MouseEnter" MouseLeave="Puntero_MouseLeave"/>
     </Grid>
 </Window>
